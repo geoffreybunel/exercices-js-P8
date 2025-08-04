@@ -1,14 +1,16 @@
 // Créez votre fonction ici
 function calculateAverage(array) {
     let total = 0;
+
     let result;
 
     if (!array) {
         result = "No numbers to calculate average";
     } else {
         for (let i = 0; i < array.length; i++) {
-            total += array[i]; 
+            total += array[i];  
         }
+
         result = total / array.length;
     }
 
